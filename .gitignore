@@ -1,0 +1,50 @@
+bootstrap.*
+classic-*
+classic.json*
+modern.json*
+ios.json*
+android.json*
+sencha-error* 
+/oweb/build.properties
+.architect
+.vscode
+#.sencha #build config, defaults etc defined here, should not be ignored! by @HT
+### ExtJs template
+ext/
+resources/sass/.sass-cache/
+
+### JetBrains template
+# User-specific stuff:
+
+# Sensitive or high-churn files:
+/.idea/*
+/oweb/.idea/*
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+.DS_Store
