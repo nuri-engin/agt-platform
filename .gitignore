@@ -11,6 +11,8 @@ sencha-error*
 #.sencha #build config, defaults etc defined here, should not be ignored! by @HT
 ### ExtJs template
 ext/
+/ext
+/ext/*
 resources/sass/.sass-cache/
 
 ### JetBrains template

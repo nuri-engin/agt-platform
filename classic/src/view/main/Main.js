@@ -1,5 +1,6 @@
 Ext.define('Admin.view.main.Main', {
     extend: 'Ext.container.Viewport',
+    alias: 'widget.mainport',
 
     requires: [
         'Ext.button.Segmented',
