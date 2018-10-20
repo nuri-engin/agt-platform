@@ -115,7 +115,10 @@ Ext.define('Admin.view.main.Main', {
                     layout: {
                         type: 'card',
                         anchor: '100%'
-                    }
+                    },
+                    items: [
+                        {xtype: 'admindashboard'}
+                    ]
                 }
             ]
         }

@@ -9,7 +9,10 @@ Ext.define('Admin.view.login.AuthenticationController', {
     },
 
     onLoginButton: function() {
-        this.redirectTo('dashboard', true);
+        let me = this;
+        let view = me.getView();
+        view.up().destroy();
+        Ext.widget('mainport');
     },
 
     onLoginAsButton: function() {
