@@ -11,8 +11,18 @@ Ext.define('Admin.view.dashboard.Dashboard', {
     items: [
         {
             xtype: 'mainpanel',
-            title: 'Pano',
-            html: 'Hello AGT Web-App'
+            items: [
+                {
+                    xtype: 'mainpanel',
+                    title: 'Pano',
+                    html: 'Hello Antalya Gida Toplulugu!'
+                },
+                {xtype: 'component', height: 20},
+                {
+                    xtype: 'mainpanel',
+                    html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0wgeFpwZPhA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
+                }
+            ]
         }
     ]
 });
