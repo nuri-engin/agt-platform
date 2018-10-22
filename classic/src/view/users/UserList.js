@@ -1,10 +1,12 @@
 Ext.define('Admin.view.users.UserList', {
-    extend: 'Admin.view.base.BaseList',
+    extend: 'Ext.panel.Panel',
     xtype: 'userlist',
 
     title: 'Uyeler',
 
     items: [
-        {xtype: 'usersgrid'}
+        {
+            xtype: 'usersgrid'
+        }
     ]
 });
